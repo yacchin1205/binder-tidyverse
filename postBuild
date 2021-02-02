@@ -1,4 +1,4 @@
 #!/bin/bash
 
-export LD_LIBRARY_PATH=/srv/conda/lib/
+cp /srv/conda/lib/libstdc++.so.6 /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 conda install r-tidyverse
